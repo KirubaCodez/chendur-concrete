@@ -873,6 +873,9 @@ a:hover {
     .build-image {
         margin-top: 0;
     }
+    .build-content {
+        margin: 0 0 40px 0;
+    }
 }
 @media (max-width: 575px) {
     .build-content .build-title {
@@ -883,5 +886,8 @@ a:hover {
     }
     .pricing-section .row>[class*="col-xs-"]:nth-child(n+2) .pricing-box {
         margin-top: 30px;
+    }
+    .build-content, .build-content .build-title {
+        text-align: center;
     }
 }
